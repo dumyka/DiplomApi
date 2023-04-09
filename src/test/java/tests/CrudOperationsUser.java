@@ -16,6 +16,7 @@ import static specs.LoginSpec.loginResponseSpec;
 import static specs.UpdateUserSpec.updatedUserRequestSpec;
 import static specs.UpdateUserSpec.updatedUserResponseSpec;
 
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Owner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -34,6 +35,7 @@ import org.junit.jupiter.api.Test;
 public class CrudOperationsUser {
 
   @Tag("positive")
+  @AllureId("#17156")
   @DisplayName("Checking the name and position when creating a user")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -61,6 +63,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
+  @AllureId("#17157")
   @DisplayName("Checking the user's mail")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -79,6 +82,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
+  @AllureId("#17158")
   @DisplayName("Editing the user's place of work")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -104,6 +108,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
+  @AllureId("#17159")
   @DisplayName("Deleting a user")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -118,6 +123,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
+  @AllureId("#17160")
   @DisplayName("Checking the number of all users")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -136,6 +142,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("negative")
+  @AllureId("#17161")
   @DisplayName("Login-Unsuccessful")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -160,6 +167,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("negative")
+  @AllureId("#17162")
   @DisplayName("Register-Unsuccessful")
   @Owner("Dmitriy.Golovanov")
   @Test
