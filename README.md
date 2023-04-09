@@ -34,3 +34,8 @@
 - ✓ GET/api//users?page=2 - получение списка пользователей
 - ✓ POST/api/login - вход в систему
 -  ✓ POST/api/register - регистрация в системе
+
+## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка <a target="_blank" href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"> Jenkins </a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/ApiDiplomDumyka/"><img src="images/screens/AllureReport.jpg" alt="Jenkins1"/></a>
+</p>
