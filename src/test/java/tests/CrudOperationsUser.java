@@ -63,7 +63,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
-  @AllureId("#17157")
+  @AllureId("#17154")
   @DisplayName("Checking the user's mail")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -82,7 +82,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
-  @AllureId("#17158")
+  @AllureId("#17152")
   @DisplayName("Editing the user's place of work")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -108,7 +108,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
-  @AllureId("#17159")
+  @AllureId("#17151")
   @DisplayName("Deleting a user")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -123,7 +123,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("positive")
-  @AllureId("#17160")
+  @AllureId("#17157")
   @DisplayName("Checking the number of all users")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -142,7 +142,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("negative")
-  @AllureId("#17161")
+  @AllureId("#17155")
   @DisplayName("Login-Unsuccessful")
   @Owner("Dmitriy.Golovanov")
   @Test
@@ -167,7 +167,7 @@ public class CrudOperationsUser {
   }
 
   @Tag("negative")
-  @AllureId("#17162")
+  @AllureId("#17153")
   @DisplayName("Register-Unsuccessful")
   @Owner("Dmitriy.Golovanov")
   @Test
