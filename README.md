@@ -40,6 +40,11 @@
 <a href="https://jenkins.autotests.cloud/job/ApiDiplomDumyka/"><img src="images/screens/AllureReport.jpg" alt="Jenkins1"/></a>
 </p>
 
+## 🧪: Пример авто-тест кейса
+<p align="center">
+<img title="AllureSuite" src="images/screens/AllureTC.jpg">
+</p>
+
 ## :rocket:: Запуск тестов из терминала
 Локальный запуск:
 ```
@@ -69,7 +74,9 @@ test/positive/negative - все тесты/позитивные/негативн
 <img title="Allure" src="images/screens/AllureReport.jpg">
 </p>
 
-## 🧪: Пример авто-тест кейса
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure_TO"/></a> Интеграция с Allure TestOps <a target="_blank" href="https://allure.autotests.cloud/project/1858/dashboards"></a>
+
+## :bar_chart:: Доска
 <p align="center">
-<img title="AllureSuite" src="images/screens/AllureTC.jpg">
+<img title="AllureDashboard" src="images/screens/Dashboard.jpg">
 </p>
