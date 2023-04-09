@@ -34,3 +34,65 @@
 - ✓ GET/api//users?page=2 - получение списка пользователей
 - ✓ POST/api/login - вход в систему
 -  ✓ POST/api/register - регистрация в системе
+
+## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка <a target="_blank" href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"> Jenkins </a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/ApiDiplomDumyka/"><img src="images/screens/AllureReport.jpg" alt="Jenkins1"/></a>
+</p>
+
+## 🧪: Пример авто-тест кейса
+<p align="center">
+<img title="AllureSuite" src="images/screens/AllureTC.jpg">
+</p>
+
+## :rocket:: Запуск тестов из терминала
+Локальный запуск:
+```
+gradle clean test
+```
+При необходимости можно переопределить параметры запуска:
+```
+gradle clean
+test/positive/negative - все тесты/позитивные/негативные
+```
+
+Удаленный запуск:
+```
+clean test
+```
+
+При необходимости можно переопределить параметры запуска:
+```
+clean
+test/positive/negative - все тесты/позитивные/негативные
+```
+
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure отчет <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/allure/"></a>
+
+## ⛅: Основной отчет
+<p align="center">
+<img title="Allure" src="images/screens/AllureReport.jpg">
+</p>
+
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure_TO"/></a> Интеграция с Allure TestOps <a target="_blank" href="https://allure.autotests.cloud/project/1858/dashboards"></a>
+
+## :bar_chart:: Доска
+<p align="center">
+<img title="AllureDashboard" src="images/screens/Dashboard.jpg">
+</p>
+
+## :pinching_hand:: Пример тест-кейса
+<p align="center">
+<img title="AllureTC" src="images/screens/TestCaseExample.jpg">
+</p>
+
+## :runner:: Прогоны
+<p align="center">
+<img title="Allure Tests" src="images/screens/Runs.jpg">
+</p>
+
+## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Telegram"/></a> Уведомления в телеграм с использованием бота 
+
+<p align="center">
+<img title="telegram" src="images/screens/Telegram1.jpg">
+</p>
