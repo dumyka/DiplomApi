@@ -40,7 +40,7 @@
 <a href="https://jenkins.autotests.cloud/job/ApiDiplomDumyka/"><img src="images/screens/AllureReport.jpg" alt="Jenkins1"/></a>
 </p>
 
-## :rocket:: Запуск тестов
+## :rocket:: Запуск тестов из терминала
 Локальный запуск:
 ```
 gradle clean test
@@ -61,3 +61,15 @@ clean test
 clean
 test/positive/negative - все тесты/позитивные/негативные
 ```
+
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure отчет <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/allure/"></a>
+
+## ⛅: Основной отчет
+<p align="center">
+<img title="Allure" src="images/screens/AllureReport.jpg">
+</p>
+
+## 🧪: Пример авто-тест кейса
+<p align="center">
+<img title="AllureSuite" src="images/screens/AllureTC.jpg">
+</p>
