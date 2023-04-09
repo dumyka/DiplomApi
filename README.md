@@ -39,3 +39,17 @@
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/ApiDiplomDumyka/"><img src="images/screens/AllureReport.jpg" alt="Jenkins1"/></a>
 </p>
+
+## :rocket:: Запуск тестов
+Локальный запуск:
+```
+gradle clean test
+```
+
+Удаленный запуск:
+```
+clean test
+
+Так же можно запустить по тегам "positive" и "negative"
+```
+clean positive/negative
