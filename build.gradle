@@ -1,0 +1,61 @@
+plugins {
+    id 'java-library'
+    id 'io.qameta.allure' version '2.10.0'
+    id "io.freefair.lombok" version "6.0.0-m2"
+}
+
+group 'guru.qa'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+def allureVersion = '2.21.0'
+
+
+allure {
+    report {
+        version.set(allureVersion)
+    }
+    adapter {
+        aspectjWeaver.set(true)
+        frameworks {
+            junit5 {
+                adapterVersion.set(allureVersion)
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter:5.9.2',
+            'io.rest-assured:rest-assured:5.3.0',
+            "io.qameta.allure:allure-rest-assured:$allureVersion",
+            "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+            "org.assertj:assertj-core:3.24.2",
+            "io.qameta.allure:allure-selenide:$allureVersion"
+    )
+
+}
+
+test {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+
+}
+
+task negative(type: Test) {
+    useJUnitPlatform {
+        includeTags("negative")
+    }
+    systemProperties(System.getProperties())
+}
+
+task positive(type: Test) {
+    useJUnitPlatform {
+        includeTags("positive")
+    }
+    systemProperties(System.getProperties())
+}
