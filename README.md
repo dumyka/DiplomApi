@@ -80,3 +80,19 @@ test/positive/negative - все тесты/позитивные/негативн
 <p align="center">
 <img title="AllureDashboard" src="images/screens/Dashboard.jpg">
 </p>
+
+## :pinching_hand:: Пример тест-кейса
+<p align="center">
+<img title="AllureTC" src="images/screens/TestCaseExample.jpg">
+</p>
+
+## :runner:: Прогоны
+<p align="center">
+<img title="Allure Tests" src="images/screens/Runs.jpg">
+</p>
+
+## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Telegram"/></a> Уведомления в телеграм с использованием бота 
+
+<p align="center">
+<img title="telegram" src="images/screens/Telegram1.jpg">
+</p>
