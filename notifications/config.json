@@ -1,7 +1,7 @@
 {
   "base": {
     "logo": "",
-    "project": "RestAssured",
+    "project": "ReqresIn",
     "environment": "uat",
     "comment": "some comment",
     "reportLink": "https://jenkins.autotests.cloud",
