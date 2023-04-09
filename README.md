@@ -50,4 +50,7 @@ gradle clean test
 ```
 clean test
 
-
+При необходимости можно переопределить параметры запуска:
+```
+gradle clean
+test/positive/negative - все тесты/позитивные/негативные
