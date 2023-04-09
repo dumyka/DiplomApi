@@ -24,3 +24,13 @@
 <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 <a href="https://https://telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/></a>
 </p>
+
+## :male_detective:: Реализованные проверки
+
+- ✓ POST/api/users - создание учетной записи пользователя
+- ✓ GET/api/users/2 - получение информации о пользователе
+- ✓ PATCH/api/users/2 - редактирование учетной записи пользователя
+- ✓ DELETE/api/users/2 - удаление учетной записи пользователя
+- ✓ GET/api//users?page=2 - получение списка пользователей
+- ✓ POST/api/login - вход в систему
+-  ✓ POST/api/register - регистрация в системе
