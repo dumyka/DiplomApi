@@ -50,6 +50,4 @@ gradle clean test
 ```
 clean test
 
-Так же можно запустить по тегам "positive" и "negative"
-```
-clean positive/negative
+
